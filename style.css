@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 200px;
+   }
+img {
+    border-radius: 3px;
+    width: 300px;
+}
+
+.team-heading {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.header {
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px;
+    
+}
+span {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.section span {
+    writing-mode: vertical-lr;
+    vertical-align: top;
+}
+.containerimg {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 50px;
+
+}
+
+.img5, .img2 {
+margin-top: 120px;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+p {
+    padding-left: 58px;
+}
+@media screen and (max-width: 992px){
+    .container {
+        display: flex;
+        max-width: 992px;
+        flex-direction: column;
+        margin-left: 65px;
+        margin-bottom: 110px;
+    }
+}
